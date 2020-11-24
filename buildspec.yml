@@ -31,5 +31,9 @@ phases:
      #   --paths /index.html /service-worker.js
 artifacts:
   files:
-    - '**/*'
+    - public/**/*
+    - src/**/*
+    - package.json
+    - appspec.yml
+    - scripts/**/*
   #base-directory: build
